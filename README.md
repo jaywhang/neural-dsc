@@ -1,5 +1,12 @@
-## Official implementation of [Neural Distributed Source Coding](https://arxiv.org/abs/2106.02797)
+# Neural Distributed Source Coding
 
+This repository contains the official implementation of the paper [_Neural Distributed Source Coding_](https://arxiv.org/abs/2106.02797).
+
+**Authors**
+> Jay Whang, Anish Acharya, Hyeji Kim, Alexandros G. Dimakis
+
+**Abstract**
+> Distributed source coding is the task of encoding an input in the absence of correlated side information that is only available to the decoder. Remarkably, Slepian and Wolf showed in 1973 that an encoder that has no access to the correlated side information can asymptotically achieve the same compression rate as when the side information is available at both the encoder and the decoder. While there is significant prior work on this topic in information theory, practical distributed source coding has been limited to synthetic datasets and specific correlation structures. Here we present a general framework for lossy distributed source coding that is agnostic to the correlation structure and can scale to high dimensions. Rather than relying on hand-crafted source-modeling, our method utilizes a powerful conditional deep generative model to learn the distributed encoder and decoder. We evaluate our method on realistic high-dimensional datasets and show substantial improvements in distributed compression performance.
 
 ## Setup
 ### Environment
