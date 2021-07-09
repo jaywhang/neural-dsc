@@ -1,4 +1,5 @@
-# Official implementation of [Neural Distributed Source Coding](https://arxiv.org/abs/2106.02797)
+## Official implementation of [Neural Distributed Source Coding](https://arxiv.org/abs/2106.02797)
+
 
 ## Setup
 ### Environment
